@@ -8,15 +8,7 @@ import { getFirestore, addDoc, collection } from "https://www.gstatic.com/fireba
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-    apiKey: "AIzaSyAUVXS9M1mrfxAxX1wlAylNjGmRYPFHXx4",
-    authDomain: "form-paginaweb.firebaseapp.com",
-    projectId: "form-paginaweb",
-    storageBucket: "form-paginaweb.firebasestorage.app",
-    messagingSenderId: "267390905185",
-    appId: "1:267390905185:web:653366a39a81051105f320",
-    measurementId: "G-0PHNGJ5685"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -48,4 +40,5 @@ form.addEventListener("submit", async (e) => {
         console.log("Error al enviar datos");
         alert("Hubo un error al enviar datos");
     }
+
 });
