@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index-style.css">
+    <title>S1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi página web</h1>
+        <p>Bienvenido a mi página web</p>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pages/Proyectos.html">Proyectos</a>
+            <a href="pages/Contacto.html">Contactos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h2>Sobre mí</h2>
+            <p>Estudiante de Desarrollo de Software enfocado en adquirir experiencia profesional en el entorno
+                Full-Stack. He desarrollado bases sólidas en diseño web Front-end (HTML, CSS y JavaScript) y en la
+                integración Back-end con bases de datos como MySQL y PostgreSQL. Mi principal fortaleza es la
+                proactividad, el dominio de Git/GitHub para el trabajo colaborativo y un gran deseo de aprender las
+                mejores prácticas de la industria. Busco una oportunidad de prácticas pre-profesionales donde pueda
+                aplicar mis conocimientos técnicos y crecer rápidamente bajo la guía de un equipo experimentado.
+            </p>
+            <img src="img/perfil_pro.jpeg" />
+        </section>
+        <section class="habilidades">
+            <h2>Mis habilidades</h2>
+            <p class="descripcion">
+                Estas son algunas de las áreas en las que tengo experiencia:
+            </p>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>Fronted</h3>
+                    <p>Dominio en la creación de interfaces web modernas usando HTML, CSS Y JS. Así como tecnologías de
+                        apoyo como Bootstrap, fontawesome, sweetAlert, etc.</p>
+                </div>
+                <div class="card">
+                    <h3>Backend</h3>
+                    <p>Conocimientos sólidos en el desarrollo del lado del servidor. Habilidad para construir APIs
+                        RESTful y manejar la lógica de negocio. Experiencia en la integración de bases de datos para
+                        asegurar el correcto funcionamiento de las aplicaciones.</p>
+                </div>
+                <div class="card">
+                    <h3>Base de datos</h3>
+                    <p>Conocimientos en diseño y gestión de bases de datos relacionales en MySQL y PostgreSQL, consultas
+                        SQL básicas, creación de tablas, relaciones y uso de JOIN para análisis de datos.</p>
+                </div>
+                <div class="card">
+                    <h3>Git/GitHub</h3>
+                    <p>Experiencia en el uso de Git para el control de versiones y colaboración en proyectos. Habilidad
+                        para trabajar con ramas (branches), realizar commits, push y pull requests, garantizando un
+                        flujo de trabajo organizado y eficiente.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flip-section">
+            <h2>Mis certificados</h2>
+            <p>Como parte de mi preparación para el mundo laboral, he completado cursos y certificaciones que validan
+                mis conocimientos teóricos y prácticos en las tecnologías clave. Estos documentos demuestran mi
+                iniciativa para auto-prepararme y me posicionan como un candidato listo para aplicar lo aprendido en un
+                contexto de desarrollo real.</p>
+            <div class="flip-contenedor">
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado_ia.jpeg" alt="certificado de python">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado_ia.jpeg" alt="certificado de python">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado_ia.jpeg" alt="certificado de python">
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/certificado_ia.jpeg" alt="certificado de python">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-contacto">
+                <h3>Contacto</h3>
+                <p>Email: chacon@senati.pe</p>
+                <p>Telefono: +51 987654321</p>
+                <p>Ubicación: Lima, Perú</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkeId</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Quesnay Chacón. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div id="imgModal" class="modal">
+        <span class="cerrar">&times;</span>
+        <img class="modal-contenedor" id="modalImg">
+    </div>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
